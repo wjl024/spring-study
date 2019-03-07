@@ -31,3 +31,51 @@
 2019-03-04 10:16:52 DEBUG DefaultListableBeanFactory:254 - Returning cached instance of singleton bean 'lifecycleProcessor'
 2019-03-04 10:16:52 DEBUG PropertySourcesPropertyResolver:96 - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
 2019-03-04 10:16:52 DEBUG DefaultListableBeanFactory:254 - Returning cached instance of singleton bean 'messagePrinter'
+2019-03-07 09:41:39 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6a396c1e
+2019-03-07 09:41:40 DEBUG XmlBeanDefinitionReader:395 - Loaded 11 bean definitions from class path resource [Spring.xml]
+2019-03-07 09:41:40 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 09:41:40 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messageServiceImpl'
+2019-03-07 09:41:40 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 09:41:40 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messagePrinter'
+2019-03-07 09:41:40 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'max'
+2019-03-07 09:41:40 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user1'
+2019-03-07 09:41:40 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user2'
+2019-03-07 09:41:40 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userLogin'
+2019-03-07 09:41:40 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 09:41:40 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'mybeforeadvice'
+2019-03-07 09:41:57 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6a396c1e
+2019-03-07 09:41:57 DEBUG XmlBeanDefinitionReader:395 - Loaded 11 bean definitions from class path resource [Spring.xml]
+2019-03-07 09:41:57 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 09:41:57 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messageServiceImpl'
+2019-03-07 09:41:57 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 09:41:57 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messagePrinter'
+2019-03-07 09:41:57 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'max'
+2019-03-07 09:41:57 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user1'
+2019-03-07 09:41:57 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user2'
+2019-03-07 09:41:57 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userLogin'
+2019-03-07 09:41:57 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 09:41:57 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'mybeforeadvice'
+2019-03-07 09:53:22 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@80ec1f8
+2019-03-07 09:53:22 DEBUG XmlBeanDefinitionReader:395 - Loaded 11 bean definitions from class path resource [Spring.xml]
+2019-03-07 09:53:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 09:53:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messageServiceImpl'
+2019-03-07 09:53:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 09:53:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messagePrinter'
+2019-03-07 09:53:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'max'
+2019-03-07 09:53:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user1'
+2019-03-07 09:53:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user2'
+2019-03-07 09:53:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userLogin'
+2019-03-07 09:53:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 09:53:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'mybeforeadvice'
+2019-03-07 10:02:49 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6a396c1e
+2019-03-07 10:02:49 DEBUG XmlBeanDefinitionReader:395 - Loaded 11 bean definitions from class path resource [Spring.xml]
+2019-03-07 10:02:49 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-07 10:02:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messageServiceImpl'
+2019-03-07 10:02:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-07 10:02:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'messagePrinter'
+2019-03-07 10:02:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'max'
+2019-03-07 10:02:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user1'
+2019-03-07 10:02:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'user2'
+2019-03-07 10:02:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userLogin'
+2019-03-07 10:02:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-07 10:02:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'mybeforeadvice'
