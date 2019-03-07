@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42702703-5b05-4041-8bc1-919fe853c55e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IoC/IoC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IoC/IoC.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IoC/logs/my_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/IoC/logs/my_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IoC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IoC/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IoC/resources/Spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IoC/resources/Spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IoC/target/classes/Spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IoC/target/classes/Spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/my_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/my_log.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/quickstart/target/" />
     <ignored path="$PROJECT_DIR$/IoC/target/" />
@@ -55,6 +45,7 @@
           <entry key="0-SNAPSHOT" value="1" />
           <entry key="class" value="1" />
           <entry key="java" value="25" />
+          <entry key="md" value="1" />
           <entry key="name" value="2" />
           <entry key="properties" value="2" />
           <entry key="xml" value="11" />
@@ -64,6 +55,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="25" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="2" />
           <entry key="UML" value="1" />
@@ -74,6 +66,8 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="java" value="1168" />
+          <entry key="md" value="51" />
+          <entry key="txt" value="30" />
           <entry key="xml" value="738" />
         </counts>
       </usages-collector>
@@ -81,6 +75,8 @@
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="JAVA" value="1168" />
+          <entry key="Markdown" value="51" />
+          <entry key="PLAIN_TEXT" value="30" />
           <entry key="XML" value="738" />
         </counts>
       </usages-collector>
@@ -88,28 +84,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IoC/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="126" column="12" selection-start-line="14" selection-start-column="4" selection-end-line="126" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/aop/Tank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-              <folding>
-                <element signature="e#98#99#0" expanded="true" />
-                <element signature="e#150#151#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/aop/TankProxy.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -165,8 +139,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aop/src/main/java/com/spring/aop/HelloApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="209">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -234,6 +208,7 @@
         <option value="$PROJECT_DIR$/IoC/resources/Spring.xml" />
         <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/aop/HelloApp.java" />
         <option value="$PROJECT_DIR$/aop/pom.xml" />
+        <option value="$PROJECT_DIR$/aop/README.md" />
       </list>
     </option>
   </component>
@@ -320,10 +295,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="aop" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IoC" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -335,7 +306,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551924517335" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551925784727" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -477,8 +448,23 @@
       <workItem from="1551659944431" duration="11158000" />
       <workItem from="1551692519289" duration="7623000" />
       <workItem from="1551916006913" duration="5623000" />
-      <workItem from="1551923568910" duration="926000" />
+      <workItem from="1551923568910" duration="2181000" />
     </task>
+    <task id="LOCAL-00001" summary="commit a aop module">
+      <created>1551924783984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551924783984</updated>
+    </task>
+    <task id="LOCAL-00002" summary="aop info">
+      <created>1551925569994</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551925569994</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -514,7 +500,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27071000" />
+    <option name="totallyTimeSpent" value="28326000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -527,8 +513,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989059" visible="true" weight="0.12801608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989059" visible="true" weight="0.12801608" />
       <window_info id="Structure" order="1" sideWeight="0.5010941" side_tool="true" weight="0.12399464" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -544,7 +531,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.32892805" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20558003" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20558003" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020107" side_tool="true" weight="0.32892805" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49865952" weight="0.32452276" />
       <window_info anchor="bottom" id="Spring" order="12" sideWeight="0.49932975" weight="0.32892805" />
@@ -564,6 +551,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit a aop module" />
+    <MESSAGE value="aop info" />
+    <option name="LAST_COMMIT_MESSAGE" value="aop info" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -786,10 +778,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/aop/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/aop/src/main/java/com/spring/aop/HelloApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
