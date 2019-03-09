@@ -3,29 +3,6 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
-    <bean id="messageServiceImpl" class="com.spring.IoC.MessageServiceImpl">
-        <constructor-arg name="username" value="Way Lau"/>
-        <constructor-arg name="age" value="30"/>
-    </bean>
-    <bean id="messagePrinter" class="com.spring.IoC.MessagePrinter">
-        <constructor-arg name="service" ref="messageServiceImpl"/>
-    </bean>
-    <!--配置一个max的bean-->
-    <bean id="max" class="com.spring.IoC.Max">
-        <constructor-arg name="a" value="5"/>
-        <constructor-arg name="b" value="6"/>
-    </bean>
-    <bean id="user1" class="com.spring.IoC.User">
-        <property name="account" value="admin01"/>
-        <property name="password" value="222"/>
-    </bean>
-    <bean id="user2" class="com.spring.IoC.User">
-        <property name="account" value="admin"/>
-        <property name="password" value="111"/>
-    </bean>
-    <bean id="userLogin" class="com.spring.IoC.UserLogin">
-        <property name="user" ref="user2"/>
-    </bean>
     <!--配置一个Hello的bean,等同于Hello hello=new HelloImpl-->
     <bean id="hello" class="com.spring.aop.HelloImpl"/>
     <!--配置一个MyBeforeAdvice前置增强的bean-->
@@ -35,6 +12,14 @@
         <aop:aspect id="before" ref="mybeforeadvice">
             <aop:pointcut id="myPointCut" expression="execution(* com.spring.aop.*.*(..))"/>
             <aop:before method="beforeMethod" pointcut-ref="myPointCut"/>
+        </aop:aspect>
+    </aop:config>
+    <bean id="user" class="com.spring.aop.UserDaoimpl"/>
+    <bean id="beforeadvice" class="com.spring.aop.BeforeAdvice"/>
+    <aop:config>
+        <aop:aspect id="before1" ref="beforeadvice">
+            <aop:pointcut id="PointCut" expression="execution(* com.spring.aop.*.*(..))"/>
+            <aop:before method="beforeMethod" pointcut-ref="PointCut"/>
         </aop:aspect>
     </aop:config>
 </beans>
