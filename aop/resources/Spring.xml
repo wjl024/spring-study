@@ -22,4 +22,10 @@
             <aop:before method="beforeMethod" pointcut-ref="PointCut"/>
         </aop:aspect>
     </aop:config>
+    <aop:aspectj-autoproxy/>
+    <bean id="fighter" class="com.spring.aop.Fighter"/>
+    <bean id="tiger" class="com.spring.aop.Tiger"/>
+    <aop:aspectj-autoproxy/>
+    <bean id="imageCopy" class="com.spring.aop.ImageCopy"/>
+    <bean id="imagehandler" class="com.spring.aop.ImageHandler"/>
 </beans>
