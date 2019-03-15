@@ -40,5 +40,10 @@ public class UserServiceImpl implements UserService {
     @Override
     public User getUser(long id) {
         return userDAO.selectByPrimaryKey(id);
+//        user.setAccount("jdjidfjdif");
+        //    user.setPassword("111");
+        //     user.setCredits(100);
+        //     return user;
+//        return userDAO.selectByPrimaryKey(id);
     }
 }

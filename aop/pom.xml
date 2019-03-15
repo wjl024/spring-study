@@ -12,11 +12,12 @@
 
     <artifactId>aop</artifactId>
     <packaging>pom</packaging>
-    <name>IoC</name>
+    <name>aop</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
     <modules>
         <module>../orm</module>
+        <module>../web</module>
     </modules>
 
     <properties>
@@ -141,6 +142,7 @@
         </dependency>
     </dependencies>
 
+
     <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
@@ -185,6 +187,25 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+        <resources>
+            <!--<resource>-->
+                <!--<directory>src/main/java</directory>-->
+                <!--<includes>-->
+                    <!--<include>**/*.properties</include>-->
+                    <!--<include>**/*.xml</include>-->
+                <!--</includes>-->
+                <!--<filtering>false</filtering>-->
+            <!--</resource>-->
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+
     </build>
 
 </project>

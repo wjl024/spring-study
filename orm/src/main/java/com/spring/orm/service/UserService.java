@@ -5,6 +5,12 @@ import com.spring.orm.entity.User;
 import java.util.List;
 
 public interface UserService {
+    /**
+     * 新增用户
+     *
+     * @param user
+     * @return
+     */
     int insertUser(User user);
 
     /**

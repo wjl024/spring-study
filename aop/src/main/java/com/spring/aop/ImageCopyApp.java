@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class ImageCopyApp {
     public static void main(String[] args) {
-        ApplicationContext context=new ClassPathXmlApplicationContext("Spring.xml");
+        ApplicationContext context=new ClassPathXmlApplicationContext("com/spring/aop/Spring-aop.xml");
         ImageCopy imageCopy=context.getBean(ImageCopy.class);
         try {
             imageCopy.copyImage();

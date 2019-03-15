@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--配置一个Hello的bean,等同于Hello hello=new HelloImpl-->
+
+    <bean id="hello" class="com.spring.aop.HelloImpl"/>
+
+    <!--配置一个MyBeforeAdvice前置增强的bean-->
+
+    <bean id="mybeforeadvice" class="com.spring.aop.MyBeforeAdvice"/>
+
+    <!--进行AOP的配置-->
+
+    <aop:config>
+
+    <aop:aspect id="before" ref="mybeforeadvice">
+
+    <aop:pointcut id="myPointCut" expression="execution(* com.spring.aop.*.*(..))"/>
+
+    <aop:before method="beforeMethod" pointcut-ref="myPointCut"/>
+
+    </aop:aspect>
+
+    </aop:config>
+
+    <bean id="user" class="com.spring.aop.UserDaoimpl"/>
+
+    <bean id="beforeadvice" class="com.spring.aop.BeforeAdvice"/>
+
+    <aop:config>
+
+    <aop:aspect id="before1" ref="beforeadvice">
+
+    <aop:pointcut id="PointCut" expression="execution(* com.spring.aop.*.*(..))"/>
+
+    <aop:before method="beforeMethod" pointcut-ref="PointCut"/>
+
+    </aop:aspect>
+
+    </aop:config>
+
+    <aop:aspectj-autoproxy/>
+
+    <bean id="fighter" class="com.spring.aop.Fighter"/>
+
+    <bean id="tiger" class="com.spring.aop.Tiger"/>
+
+    <aop:aspectj-autoproxy/>
+
+    <bean id="imageCopy" class="com.spring.aop.ImageCopy"/>
+
+    <bean id="imagehandler" class="com.spring.aop.ImageHandler"/>
+</beans>

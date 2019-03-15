@@ -5,6 +5,7 @@
       <configuration>
         <fileset id="fileset" name="Spring" removed="false">
           <file>file://$MODULE_DIR$/resources/Spring.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/Spring-mybatis.xml</file>
         </fileset>
       </configuration>
     </facet>
